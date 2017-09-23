@@ -5,12 +5,12 @@ var b=0;
 while(true) {
   background(255);
   fill(255);
-  x=100+b;
+  x=0+b;
   y=100;
   
   ellipse(x,y,50, 50);
   b=b+10;
-	if (b>=290){
+	if (b>=370){
     b=0;
   }
 }
