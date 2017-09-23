@@ -11,9 +11,9 @@ while(true) {
   
   ellipse(x,y,50, 50);
 	if (x>=315){
-    b=b-10;
+    b=b-20;
   }
   if(x<=25){
-    b=b+10;
+    b=10;
   }
 }
