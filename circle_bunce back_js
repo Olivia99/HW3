@@ -10,7 +10,7 @@ while(true) {
   y=100;
   
   ellipse(x,y,50, 50);
-	if (x>=315){
+	if (x>=width){
     b=b-20;
   }
   if(x<=25){
